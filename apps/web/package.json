@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^7",
+    "@lucide/astro": "^1.80.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@workspace/ui": "workspace:*",
