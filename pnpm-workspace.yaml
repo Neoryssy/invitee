@@ -6,3 +6,6 @@ allowBuilds:
   esbuild: true
   sharp: true
   msw: false
+
+minimumReleaseAgeExclude:
+  - '@types/react@19.3.3'

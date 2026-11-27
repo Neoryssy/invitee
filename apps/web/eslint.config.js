@@ -17,6 +17,12 @@ export default defineConfig([
     ],
     languageOptions: {
       globals: globals.browser,
+      parserOptions: {
+        // ✅ Point to the current package directory
+        tsconfigRootDir: __dirname,
+        // ✅ Also specify which tsconfig(s) to use
+        project: ["./tsconfig.json", "./tsconfig.app.json"],
+      },
     },
     rules: {
       "react-refresh/only-export-components": "off",

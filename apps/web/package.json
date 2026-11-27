@@ -13,10 +13,10 @@
     "typecheck": "astro check"
   },
   "dependencies": {
-    "@astrojs/react": "^7",
+    "@astrojs/react": "^7.1.9",
     "@lucide/astro": "^1.80.0",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
     "@workspace/ui": "workspace:*",
     "astro": "^7.4.12",
     "lucide-react": "^1.80.0",
@@ -32,6 +32,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.8",
     "globals": "^17",
+    "oxc-transform-react": "^0.158.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8"
   }
